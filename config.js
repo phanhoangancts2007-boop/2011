@@ -25,5 +25,5 @@ window.CONFIG = {
     "https://drive.google.com/file/d/1WtuYbK3gtcr0eqz8yHMAyQe4HgPOb5lg/view?usp=drivesdk"
   ],
   /* Thứ tự thử: file trong thư mục trước, link Drive sau. Cả hai lỗi thì trang tự phát giai điệu hộp nhạc. */
-  music: ["assets/music/nhac.mp3", "https://drive.google.com/file/d/1fEoN2XBZ_-fh7rTMjf4kbYhh6vScj0yh/view?usp=drivesdk"]
+  music: ["nhac.mp3", "https://drive.google.com/file/d/1fEoN2XBZ_-fh7rTMjf4kbYhh6vScj0yh/view?usp=drivesdk"]
 };
