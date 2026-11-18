@@ -1,5 +1,0 @@
-services:
-  - type: web
-    name: foryou2011
-    runtime: static
-    staticPublishPath: .
