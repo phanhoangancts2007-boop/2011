@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>20/11 · Gửi ngàn lời tri ân</title>
+<meta name="description" content="Một lời tri ân gửi đến thầy cô nhân ngày Nhà giáo Việt Nam 20/11.">
+<meta name="theme-color" content="#203a32">
+<meta property="og:title" content="20/11 · Gửi ngàn lời tri ân">
+<meta property="og:description" content="Một lời tri ân gửi đến thầy cô nhân ngày Nhà giáo Việt Nam 20/11.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌸%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Charm:wght@400;700&family=Be+Vietnam+Pro:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<noscript><p style="padding:24px;color:#fff">Vui lòng bật JavaScript để mở món quà.</p></noscript>
+<div id="rot"><h2>Xoay ngang một chút nhé!</h2><p>Xoay ngang điện thoại hoặc iPad để xem đẹp nhất. Mở trong Zalo thì nhấn dấu ba chấm và chọn mở bằng trình duyệt ngoài.</p><button class="btn" id="rotskip">Vẫn xem dọc</button></div>
+<button id="mus" aria-label="Bật hoặc tắt nhạc">♪</button>
+
+<section class="stage on" id="cover" tabindex="0" role="button" aria-label="Chạm để bắt đầu">
+  <div class="seal"><span>20/11</span></div>
+  <p>Chạm để bắt đầu</p>
+</section>
+
+<section class="stage wall" id="board">
+  <div class="frame"><div><h1 id="t1"></h1><small id="t2"></small></div><div class="heart" aria-hidden="true">♡</div></div>
+  <div class="ledge"></div>
+  <button class="btn" data-next>Mở lá thư</button>
+</section>
+
+<section class="stage" id="letter">
+  <article class="paper"><h2 id="gr"></h2><div id="lt"></div><p class="sig" id="sg"></p></article>
+  <button class="btn" data-next>Xem kỷ niệm</button>
+</section>
+
+<section class="stage" id="film">
+  <header><h2 id="gt"></h2><p><span id="cnt">1 / 1</span> · vuốt ngang để xem</p></header>
+  <div class="wrap"><button class="arr l" id="pv" aria-label="Ảnh trước">‹</button><div class="strip" id="strip"></div><button class="arr r" id="nx" aria-label="Ảnh sau">›</button></div>
+  <footer>Ngày 20 tháng 11</footer>
+</section>
+
+<div id="lb" role="dialog" aria-modal="true" hidden><button id="lx" aria-label="Đóng">×</button><img id="li" alt=""></div>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
